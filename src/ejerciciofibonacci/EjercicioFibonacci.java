@@ -23,6 +23,7 @@ public class EjercicioFibonacci {
     // llamamos a la función declarada anteriormente desde el método main
     public static void main(String[] args) {
         
+        // Creamos este bucle para dar los primeros 30 números de fibonacci
         for (int i = 0; i <= 30; i++) {
             System.out.println("El fibonacci("+i+") es: "+fib(i));
         }
